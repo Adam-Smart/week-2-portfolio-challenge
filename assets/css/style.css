@@ -1,0 +1,52 @@
+:root {
+--dark: #2d232e ;
+--light: #f6f1d1 ;
+
+}
+body {
+    background-color: #70a9a1 ;
+}
+header {
+background-color:var(--dark) ;
+color: var(--light);
+padding: 10px;
+font-family: 'Courier New', Courier, monospace;
+
+
+}
+header h1 {
+    display: inline-block;
+    font-size: 42px;
+}
+nav {
+    float: right;
+    padding-right: 20px;
+}
+nav ul {
+    list-style-type: none;
+    
+}
+nav ul li {
+    display: block;
+    font-size: 20px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    
+}
+nav a{
+    color: var(--light);
+    text-decoration: none;
+    font-size: 20px;
+}
+
+
+
+footer {
+    background-color: var(--dark);
+    color: var(--light);
+}
+footer span {
+    font-size: 20px;
+    margin-right: 400px;
+    font w
+}
