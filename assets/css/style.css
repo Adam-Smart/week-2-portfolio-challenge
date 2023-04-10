@@ -11,7 +11,8 @@ background-color:var(--dark) ;
 color: var(--font);
 padding: 10px;
 font-family: 'Courier New', Courier, monospace;
-border-radius: var(--round);
+border-radius: var(--round);border: black;
+border-style: solid;
 }
 header h1 {
     display: inline-block;
@@ -26,6 +27,7 @@ nav {
     float: right;
     padding-right: 20px;
     padding-top: 10px;
+    
     
 }
 nav ul {
@@ -48,16 +50,20 @@ nav a{
     font-size: 20px;
 }
 aside {
-    background-color: green;
+    background-color: #006494;
     padding: 30px;
     margin-top: 10px;
     margin-bottom: 10px;
     border-radius: var(--round);
+    border: black;
+    border-style: solid;
 
 }
 aside img {
     width: auto;
     height: 250px;
+    border: black;
+    border-style: solid;
 }
 .my-work{
     padding-left: 5%;
@@ -69,28 +75,30 @@ aside img {
 
 }
 .my-work img {
-
-display: flex;
 width: 100%;
 height: auto;
 margin-bottom: 10px;
-
-
 }
 .work {
     min-width: 0;
     min-height: 0;
+    width: 49%;
+    height: auto;
+    margin-right: 10px;
    
 
 }
 .work img {
-    width: 75%;
+    width: 100%;
     height: auto;
 }
 h2 {
     background-color: var(--dark);
     color: var(--font);
     padding: 20px;
+    border-radius: var(--round);
+    border: black;
+    border-style: solid;
 }
 h3 { background-color: var(--dark);
 padding: 20px;
@@ -99,33 +107,37 @@ margin-top: 10px;
 border-start-start-radius: var(--round);
 border-start-end-radius: var(--round);
 display: flex;
-border: white;
+border: black;
 border-style: solid;
 color: var(--font);
 }
 .work h3{
-    background-color: red;
+    background-color: var(--dark);
 }
 
 footer {
     background-color: var(--dark);
     color: var(--font);
     border-radius:var(--round);
-    padding: 20px;
+    padding: 20px;border: black;
+    border-style: solid;
 }
 footer p {
     font-size: 25px;
-    margin-right: 300px;
-    display: inline;
+    margin-right: 350px;
+    display: block;
 }
 @media screen and (max-width: 768px) {
     main {
         padding: 0;
         margin: 0;
+        height: auto;
         flex-direction: column;
-        
-    }
     
+    }
+    .work {
+        width: 100%;
+    }
     nav {
       flex-direction: column;
       padding: 0;
