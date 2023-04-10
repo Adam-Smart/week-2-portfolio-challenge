@@ -1,6 +1,6 @@
 :root {
 --dark: #2d232e ;
---light: #f6f1d1 ;
+--font: #f6f1d1 ;
 --round: 20px;
 }
 body {
@@ -8,7 +8,7 @@ body {
 }
 header {
 background-color:var(--dark) ;
-color: var(--light);
+color: var(--font);
 padding: 10px;
 font-family: 'Courier New', Courier, monospace;
 border-radius: var(--round);
@@ -43,37 +43,73 @@ nav ul li {
     
 }
 nav a{
-    color: var(--light);
+    color: var(--font);
     text-decoration: none;
     font-size: 20px;
 }
 aside {
     background-color: green;
     padding: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: var(--round);
+
 }
 aside img {
     width: auto;
     height: 250px;
 }
 .my-work{
-    margin-left: 200px;
-    margin-right: 200px;
+    padding-left: 5%;
+    padding-right: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    min-width: 0;
+    min-height: 0;
+
 }
 .my-work img {
-width:1000px;
-height: 550px;
+
+display: flex;
+width: 100%;
+height: auto;
+margin-bottom: 10px;
+
+
+}
+.work {
+    min-width: 0;
+    min-height: 0;
+   
+
+}
+.work img {
+    width: 75%;
+    height: auto;
 }
 h2 {
     background-color: var(--dark);
+    color: var(--font);
     padding: 20px;
 }
 h3 { background-color: var(--dark);
-padding: 20px;}
-
+padding: 20px;
+margin: 0;
+margin-top: 10px;
+border-start-start-radius: var(--round);
+border-start-end-radius: var(--round);
+display: flex;
+border: white;
+border-style: solid;
+color: var(--font);
+}
+.work h3{
+    background-color: red;
+}
 
 footer {
     background-color: var(--dark);
-    color: var(--light);
+    color: var(--font);
     border-radius:var(--round);
     padding: 20px;
 }
@@ -82,3 +118,17 @@ footer p {
     margin-right: 300px;
     display: inline;
 }
+@media screen and (max-width: 768px) {
+    main {
+        padding: 0;
+        margin: 0;
+        flex-direction: column;
+        
+    }
+    
+    nav {
+      flex-direction: column;
+      padding: 0;
+      margin: 0;
+    }
+  }
