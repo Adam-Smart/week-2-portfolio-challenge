@@ -12,15 +12,16 @@ color: var(--light);
 padding: 10px;
 font-family: 'Courier New', Courier, monospace;
 border-radius: var(--round);
-
-
-
 }
 header h1 {
     display: inline-block;
     font-size: 42px;
     padding-left: 20px;
 }
+main{
+    display: flex;
+}
+
 nav {
     float: right;
     padding-right: 20px;
@@ -45,6 +46,22 @@ nav a{
     color: var(--light);
     text-decoration: none;
     font-size: 20px;
+}
+aside {
+    background-color: green;
+    padding: 30px;
+}
+aside img {
+    width: auto;
+    height: 250px;
+}
+.my-work{
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.my-work img {
+width:1000px;
+height: 550px;
 }
 h2 {
     background-color: var(--dark);
