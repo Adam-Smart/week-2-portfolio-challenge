@@ -5,6 +5,7 @@
 }
 body {
     background-color: #70a9a1 ;
+    font-family: 'Courier New', Courier, monospace;
 }
 header {
 background-color:var(--dark) ;
@@ -14,7 +15,7 @@ font-family: 'Courier New', Courier, monospace;
 border-radius: var(--round);border: black;
 border-style: solid;
 }
-header h1 {
+h1 {
     display: inline-block;
     font-size: 42px;
     padding-left: 20px;
@@ -57,6 +58,7 @@ aside {
     border-radius: var(--round);
     border: black;
     border-style: solid;
+    color: var(--font);
 
 }
 aside img {
@@ -73,6 +75,9 @@ aside img {
     min-width: 0;
     min-height: 0;
 
+}
+.my-work h2 {
+    font-size: 50px;
 }
 .my-work img {
 width: 100%;
