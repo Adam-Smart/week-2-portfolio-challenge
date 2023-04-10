@@ -67,6 +67,14 @@ aside img {
     border: black;
     border-style: solid;
 }
+h2 {
+    background-color: var(--dark);
+    color: var(--font);
+    padding: 20px;
+    border-radius: var(--round);
+    border: black;
+    border-style: solid;}
+
 .my-work{
     padding-left: 5%;
     padding-right: 5%;
@@ -84,6 +92,7 @@ width: 100%;
 height: auto;
 margin-bottom: 10px;
 }
+
 .work {
     min-width: 0;
     min-height: 0;
@@ -97,14 +106,7 @@ margin-bottom: 10px;
     width: 100%;
     height: auto;
 }
-h2 {
-    background-color: var(--dark);
-    color: var(--font);
-    padding: 20px;
-    border-radius: var(--round);
-    border: black;
-    border-style: solid;
-}
+
 h3 { background-color: var(--dark);
 padding: 20px;
 margin: 0;
