@@ -130,6 +130,13 @@ footer {
     padding: 20px;border: black;
     border-style: solid;
 }
+footer a {
+    color: var(--font);
+    
+}
+footer a:hover{
+    color: blue;
+}
 footer p {
     font-size: 25px;
     margin-right: 350px;
