@@ -19,6 +19,7 @@ This webpage is designed to be used by myself and potential future employers. Th
 ![An image of the completed webpage](/assets/images/portfolio.jpg)
 
 ![Image of the webpage in mobile mode](/assets/images/mobile%20view.jpg)
+
 ## Link To Deployed Site
 
 https://adam-smart.github.io/week-2-portfolio-challenge/
