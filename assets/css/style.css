@@ -7,6 +7,7 @@ body {
     background-color: #70a9a1 ;
     font-family: 'Courier New', Courier, monospace;
 }
+/* This changes the style of the header element*/
 header {
 background-color:var(--dark) ;
 color: var(--font);
@@ -15,41 +16,42 @@ font-family: 'Courier New', Courier, monospace;
 border-radius: var(--round);border: black;
 border-style: solid;
 }
+/* This changes style and positioning of the h1 element*/
 h1 {
     display: inline-block;
     font-size: 42px;
     padding-left: 20px;
 }
+/*Changes the display style of the main section*/
 main{
     display: flex;
 }
-
+/*This change moves the navigation list to the right of the header*/
 nav {
     float: right;
     padding-right: 20px;
-    padding-top: 10px;
-    
-    
+    padding-top: 10px;  
 }
+/*This removes the bullet points to the list and lines its up to sit in the centre of the x=axis */
 nav ul {
     list-style-type: none;
     display: contents;
-    
     padding: 5px;
-    
 }
+/*This changes the display of the text to be in a list rather than being in a row*/
 nav ul li {
     display: block;
     font-size: 20px;
     padding-top: 3px;
     padding-bottom: 3px;
-    
 }
+/*Changes the color of the link and removes the underline*/
 nav a{
     color: var(--font);
     text-decoration: none;
     font-size: 20px;
 }
+/*Changes the style of the aside*/
 aside {
     background-color: #006494;
     padding: 30px;
@@ -59,8 +61,8 @@ aside {
     border: black;
     border-style: solid;
     color: var(--font);
-
 }
+/*Changes the style anf sizing of the image*/
 aside img {
     width: auto;
     height: 250px;
@@ -70,14 +72,17 @@ aside img {
     min-width: none;
     min-height: auto;
 }
+/*Changes style of all h2 elements*/
 h2 {
     background-color: var(--dark);
     color: var(--font);
     padding: 20px;
     border-radius: var(--round);
     border: black;
-    border-style: solid;}
-
+    border-style: solid;
+    font-size: 30px;
+}
+/*Changes sizing and postioning of the .my-work*/
 .my-work{
     padding-left: 5%;
     padding-right: 5%;
@@ -86,28 +91,26 @@ h2 {
     min-width: 0;
     min-height: 0;
     justify-content: space-evenly;
-
 }
-.my-work h2 {
-    font-size: 50px;
-}
+/*Changes the size of all photos in .my-work*/
 .my-work img {
 width: 100%;
 height: auto;
 margin-bottom: 10px;
 }
-
+/*Changes the the size of the whole .work section*/
 .work {
     min-width: 0;
     min-height: 0;
     width: 49%;
     height: auto;
 }
+/*Alters the image size to make them the full size of the .work section*/
 .work img {
     width: 100%;
     height: auto;
 }
-
+/*Changes the style of the h3 elements*/
 h3 { background-color: var(--dark);
 padding: 20px;
 margin: 0;
@@ -119,10 +122,7 @@ border: black;
 border-style: solid;
 color: var(--font);
 }
-.work h3{
-    background-color: var(--dark);
-}
-
+/*Changes the style of the footer*/
 footer {
     background-color: var(--dark);
     color: var(--font);
@@ -130,18 +130,21 @@ footer {
     padding: 20px;border: black;
     border-style: solid;
 }
+/*Changes the color of the link text to make it stand out*/
 footer a {
     color: var(--font);
-    
 }
+/*Changes the color of the link when you hover over it */
 footer a:hover{
     color: blue;
 }
+/*Changes the positioning of the text in the footer*/
 footer p {
     font-size: 25px;
     margin-right: 350px;
     display: block;
 }
+/*Changes the position and size of webpage when the screen is shrunk down to 768px*/
 @media screen and (max-width: 768px) {
     main {
         padding: 0;

@@ -16,8 +16,8 @@ When creating the webpage an issue I ran into was changing the size of some of t
 ## Usage
 This webpage is designed to be used by myself and potential future employers. This helps me as this gives me a space where I can show off previous work that I have done and currently working on keeping it all in one place. This is useful for potential employers as they can see the work ive done before, all on one page with included links to the deployed application allowing them to explore by themself. 
 
-![An image of the completed webpage after changes have been made](/assets/images/Portfolio.jpg)
-
+![An image of the completed webpage](/assets/images/portfolio.jpg)
+![Image of the webpage in mobile mode](/assets/images/mobile%20view.jpg)
 ## Link To Deployed Site
 https://adam-smart.github.io/week-2-portfolio-challenge/
 
