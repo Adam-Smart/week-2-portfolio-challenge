@@ -22,34 +22,34 @@ h1 {
     font-size: 42px;
     padding-left: 20px;
 }
-/*Changes the display style of the main section*/
-main{
-    display: flex;
-}
 /*This change moves the navigation list to the right of the header*/
-nav {
+header nav {
     float: right;
     padding-right: 20px;
     padding-top: 10px;  
 }
 /*This removes the bullet points to the list and lines its up to sit in the centre of the x=axis */
-nav ul {
+header nav ul {
     list-style-type: none;
     display: contents;
     padding: 5px;
 }
 /*This changes the display of the text to be in a list rather than being in a row*/
-nav ul li {
+header nav ul li {
     display: block;
     font-size: 20px;
     padding-top: 3px;
     padding-bottom: 3px;
 }
 /*Changes the color of the link and removes the underline*/
-nav a{
+header nav a{
     color: var(--font);
     text-decoration: none;
     font-size: 20px;
+}
+/*Changes the display style of the main section*/
+main{
+    display: flex;
 }
 /*Changes the style of the aside*/
 aside {
@@ -64,13 +64,12 @@ aside {
 }
 /*Changes the style anf sizing of the image*/
 aside img {
-    width: auto;
-    height: 250px;
     border: black;
     border-style: solid;
     display:flex;
-    min-width: none;
-    min-height: auto;
+    width: 90%;
+    height: auto;
+    flex: 1;
 }
 /*Changes style of all h2 elements*/
 h2 {
@@ -156,9 +155,7 @@ footer p {
     .work {
         width: 100%;
     }
-    nav {
+    header nav {
       flex-direction: column;
-      padding: 0;
-      margin: 0;
     }
   }
